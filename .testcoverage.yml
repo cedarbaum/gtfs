@@ -1,0 +1,13 @@
+profile: cover.out
+
+local-prefix: "https://github.com/jamespfennell/gtfs"
+
+threshold:
+  file: 70
+  package: 80
+  total: 95
+
+exclude:
+  paths:
+    - main      # exclude main package
+    - \.pb\.go$ # excludes all protobuf generated files
